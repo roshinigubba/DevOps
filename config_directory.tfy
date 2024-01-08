@@ -1,0 +1,9 @@
+resource "local_file" "pet1"{
+    filename="C:/Users/roshini.gubba/repo/terraform all programs/configuration directory.txt"
+    content="This is cat"
+}
+
+resource "local_file" "pet2"{
+    filename="C:/Users/roshini.gubba/repo/terraform all programs/configuration directory.txt"
+    content="This is dog"
+}
