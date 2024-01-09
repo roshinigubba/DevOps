@@ -1,4 +1,4 @@
 resource "aws_instance" "First-server"{
-    ami="ami-0c7217cdde317cfec"
+    ami="<ami_id>"
     instance_type="t2.micro"
 }
