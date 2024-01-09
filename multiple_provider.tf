@@ -13,18 +13,18 @@ terraform {
 
 provider "aws" {
     region     = "us-east-1"
-    access_key = "AKIA4OKKXQSR654A3RER"
-    secret_key = "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"
+    access_key = "-----------------"
+    secret_key = "----------------------"
 }
 
 provider "azurerm" {
   features {}
-  subscription_id="0f61474f-0dbb-414d-8189-885efb2cd0ea"
-  tenant_id="8e8323aa-5809-48c2-a469-645d7a492a2f"
+  subscription_id="----------------"
+  tenant_id="---------------------"
 }
 
 resource "aws_instance" "example_aws_instance" {
-  ami           = "ami-0c7217cdde317cfec"
+  ami           = "------------------------"
   instance_type = "t2.micro"
 
   tags = {
