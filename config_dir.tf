@@ -1,8 +1,8 @@
 # Shared configuration (main.tf)
 provider "aws" {
-    region     = ""
-    access_key = ""
-    secret_key = ""
+    region     = secrets.REGION
+    access_key = secrets.ACCESS_KEY
+    secret_key = secrets.SECRET_KEY
 
 }
 
