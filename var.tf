@@ -4,10 +4,10 @@ variable "instance_type"{
 }
 
 variable "ami_id"{
-    default=""
+    default=secrets.AMI
     type=string
 }
 
 variable "region"{
-    default=""
+    default=secrets.REGION
 }
